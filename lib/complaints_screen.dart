@@ -77,7 +77,7 @@ class ComplaintsScreen extends StatelessWidget {
                         tooltip: 'EDIT',
                       ),
                       const SizedBox(width: 8),
-                      // زر DELETE (أيقونة فقط)
+                
                       IconButton(
                         icon: Icon(Icons.delete, color: Colors.red[700], size: 22),
                         onPressed: () {
