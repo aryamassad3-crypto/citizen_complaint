@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ComplaintsScreen extends StatelessWidget {
-  // دالة مساعدة للـ Popup
+  
   void _showPopup(BuildContext context, String title, String message) {
     showDialog(
       context: context,
@@ -69,7 +69,6 @@ class ComplaintsScreen extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      // زر EDIT (أيقونة فقط)
                       IconButton(
                         icon: Icon(Icons.edit, color:const Color.fromARGB(118, 0, 0, 0), size: 22),
                         onPressed: () {
